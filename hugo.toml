@@ -1,0 +1,19 @@
+baseURL = "https://aN0NyMoUs0000.github.io/"
+languageCode = "en-us"
+title = "MCQGen Demo"
+theme = "PaperMod"
+
+[params]
+  showToc = true
+  mode = "light"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "MCQs"
+    url = "/mcqs/"
+    weight = 2

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MCQGen Demo</title>
+    <link>https://aN0NyMoUs0000.github.io/</link>
+    <description>Recent content on MCQGen Demo</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en-us</language>
+    <atom:link href="https://aN0NyMoUs0000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCQs</title>
+      <link>https://aN0NyMoUs0000.github.io/mcqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aN0NyMoUs0000.github.io/mcqs/</guid>
+      <description>&lt;div id=&#34;mcq-container&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  async function loadMCQs() {
+    const response = await fetch(&#39;/data/mcqs.json&#39;);
+    const data = await response.json();
+    const container = document.getElementById(&#39;mcq-container&#39;);
+
+    data.forEach((mcq, index) =&gt; {
+      const questionDiv = document.createElement(&#39;div&#39;);
+      questionDiv.innerHTML = `
+        &lt;h3&gt;${mcq.question}&lt;/h3&gt;
+        ${mcq.options
+          .map(
+            (option, i) =&gt;
+              `&lt;button class=&#34;mcq-option&#34; onclick=&#34;submitAnswer(${index}, ${i})&#34;&gt;${option}&lt;/button&gt;`
+          )
+          .join(&#39;&#39;)}
+        &lt;p id=&#34;explanation-${index}&#34; class=&#34;mcq-explanation&#34; style=&#34;display: none;&#34;&gt;
+          ${mcq.explanation}
+        &lt;/p&gt;
+      `;
+      container.appendChild(questionDiv);
+    });
+  }
+
+  function submitAnswer(questionIndex, selectedOption) {
+    const responseElement = document.getElementById(`explanation-${questionIndex}`);
+    responseElement.style.display = &#39;block&#39;;
+  }
+
+  loadMCQs();
+&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>

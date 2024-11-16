@@ -1,0 +1,32 @@
+<div id="mcq-container"></div>
+<script>
+  async function loadMCQs() {
+    const response = await fetch('/data/mcqs.json');
+    const data = await response.json();
+    const container = document.getElementById('mcq-container');
+
+    data.forEach((mcq, index) => {
+      const questionDiv = document.createElement('div');
+      questionDiv.innerHTML = `
+        <h3>${mcq.question}</h3>
+        ${mcq.options
+          .map(
+            (option, i) =>
+              `<button class="mcq-option" onclick="submitAnswer(${index}, ${i})">${option}</button>`
+          )
+          .join('')}
+        <p id="explanation-${index}" class="mcq-explanation" style="display: none;">
+          ${mcq.explanation}
+        </p>
+      `;
+      container.appendChild(questionDiv);
+    });
+  }
+
+  function submitAnswer(questionIndex, selectedOption) {
+    const responseElement = document.getElementById(`explanation-${questionIndex}`);
+    responseElement.style.display = 'block';
+  }
+
+  loadMCQs();
+</script>
