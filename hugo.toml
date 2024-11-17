@@ -4,7 +4,8 @@ title = "MCQGen Demo"
 theme = "PaperMod"
 
 [params]
-  showToc = true
+  customCSS = ["/css/mcq-style.css"] # Add custom CSS here
+  showToc = false
   mode = "light"
 
 [menu]

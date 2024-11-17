@@ -1,0 +1,15 @@
+[
+    {
+      "question": "What is the main purpose of this system?",
+      "options": ["Summarization", "Question Generation", "Translation", "Answering Questions"],
+      "correct": 1,
+      "explanation": "This system is designed to generate multiple-choice questions."
+    },
+    {
+      "question": "What format does the transcript use?",
+      "options": ["JSON", "Text", "XML", "YAML"],
+      "correct": 1,
+      "explanation": "The transcript uses plain text format."
+    }
+  ]
+  
