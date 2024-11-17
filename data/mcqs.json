@@ -1,0 +1,236 @@
+{
+  "titles": [
+    {
+      "title": "The surprising origins of the word “lesbian” - Diane J. Rayor",
+      "category": "Literature & Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who was the ancient Greek poet celebrated for her intimate and personal poetry about love, passion, and longing?",
+          "options": [
+            {"label": "A", "text": "Sappho"},
+            {"label": "B", "text": "Ovid"},
+            {"label": "C", "text": "Homer"},
+            {"label": "D", "text": "Aristophanes"}
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 2,
+          "question": "What instrument did Sappho typically play while singing her songs, which also gave rise to the term \"lyrics\" in poetry?",
+          "options": [
+            {"label": "A", "text": "Lyre"},
+            {"label": "B", "text": "Harp"},
+            {"label": "C", "text": "Flute"},
+            {"label": "D", "text": "Drums"}
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 3,
+          "question": "What is the origin of the term \"lyrics\" in poetry, and how is it related to Sappho's performances?",
+          "options": [
+            {"label": "A", "text": "From the Greek word for \"song\""},
+            {"label": "B", "text": "From the name of a famous poet"},
+            {"label": "C", "text": "From the instrument \"lyre\" that Sappho played"},
+            {"label": "D", "text": "From the Latin word for \"verse\""}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 4,
+          "question": "How would you describe the tone of Sappho's poetry, particularly when she writes about love and desire?",
+          "options": [
+            {"label": "A", "text": "Formal and objective, reflecting the societal norms of ancient Greece"},
+            {"label": "B", "text": "Intimate and personal, offering a unique perspective on love and desire"},
+            {"label": "C", "text": "Sarcastic and humorous, poking fun at the conventions of love"},
+            {"label": "D", "text": "Angry and bitter, reflecting a sense of frustration and disillusionment"}
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 5,
+          "question": "What were the social norms regarding marriage and relationships in ancient Greece, and how did they differ for men and women?",
+          "options": [
+            {"label": "A", "text": "Men and women were free to choose their partners, and same-sex relationships were widely accepted"},
+            {"label": "B", "text": "Everyone was expected to marry and have children, but men were allowed to have extramarital relationships"},
+            {"label": "C", "text": "Only men were allowed to have homosexual relationships, while women were expected to be chaste"},
+            {"label": "D", "text": "Women were allowed to have multiple husbands, while men were expected to be monogamous"}
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 6,
+          "question": "Why do you think Sappho's poetry was neglected or destroyed by monks and Christian leaders?",
+          "options": [
+            {"label": "A", "text": "Because it was considered too secular and did not conform to Christian values"},
+            {"label": "B", "text": "Because it was deemed too erotic and licentious, and was seen as a threat to moral standards"},
+            {"label": "C", "text": "Because it was written by a woman, and was therefore considered inferior or unimportant"},
+            {"label": "D", "text": "Because it was too old-fashioned and no longer relevant to contemporary society"}
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 7,
+          "question": "What is the current state of Sappho's surviving work, and what are the prospects for recovering more of her poetry in the future?",
+          "options": [
+            {"label": "A", "text": "We have all of her poems and songs, and there is no need for further recovery efforts"},
+            {"label": "B", "text": "We have around 50% of her total known work, and more is likely to be discovered in the future"},
+            {"label": "C", "text": "We have less than 10% of her total known work, but new technologies and discoveries may lead to the recovery of more poetry"},
+            {"label": "D", "text": "We have none of her original work, and it is unlikely that any will be recovered in the future"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 8,
+          "question": "How do you think the historical rumors about Sappho's life, such as her falling in love with a ferryman, reflect the attitudes of the time towards her and her work?",
+          "options": [
+            {"label": "A", "text": "They show a deep respect for her work and legacy, and a desire to understand her as a person"},
+            {"label": "B", "text": "They demonstrate a neutral and objective view of her life, and a commitment to factual accuracy"},
+            {"label": "C", "text": "They reveal a misogynistic and homophobic bias, and a desire to marginalize or erase her"},
+            {"label": "D", "text": "They indicate a lack of interest in her personal life, and a focus on her poetry alone"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 9,
+          "question": "What does the phrase \"I say someone in another time will remember us\" suggest about Sappho's hopes for her legacy?",
+          "options": [
+            {"label": "A", "text": "She wanted to be forgotten after her death, and did not care about her legacy"},
+            {"label": "B", "text": "She hoped her work would be remembered for a short time, but did not expect it to endure"},
+            {"label": "C", "text": "She believed her words would endure across time, and would continue to resonate with readers"},
+            {"label": "D", "text": "She was unsure about the impact of her poetry, and did not know if it would be remembered"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 10,
+          "question": "Why do you think Sappho's poetry continues to resonate with readers today, despite being written over 2,500 years ago?",
+          "options": [
+            {"label": "A", "text": "Because it deals with universal themes of love and desire that are still relevant today"},
+            {"label": "B", "text": "Because it is a product of its time and reflects ancient Greek culture, which is still studied and admired today"},
+            {"label": "C", "text": "Because it is a rare example of ancient Greek literature, and is therefore valuable for historical and scholarly purposes"},
+            {"label": "D", "text": "Because it has been extensively studied and analyzed by scholars, who have helped to keep it alive and relevant"}
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Why I'm done trying to be \"man enough\" - Justin Baldoni",
+      "category": "Psychology",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the speaker's most well-known role as an actor, which he mentions in the talk?",
+          "options": [
+            { "label": "A", "text": "Rafael" },
+            { "label": "B", "text": "Male Escort #1" },
+            { "label": "C", "text": "Shirtless Medical Student" },
+            { "label": "D", "text": "Shirtless Steroid-Using Con Man" }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 2,
+          "question": "According to the speaker, what is the primary issue with the traditional definition of masculinity that has been passed down to men from generation to generation?",
+          "options": [
+            { "label": "A", "text": "It emphasizes the importance of emotional intelligence and sensitivity." },
+            { "label": "B", "text": "It promotes a narrow and limiting definition of masculinity that discourages vulnerability and emotional expression." },
+            { "label": "C", "text": "It encourages men to be aggressive and dominant in their relationships." },
+            { "label": "D", "text": "It fails to recognize the importance of strength and bravery in men." }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 3,
+          "question": "What values did the speaker's father teach him about being a man, according to the talk?",
+          "options": [
+            { "label": "A", "text": "Traditional masculine traits like strength, aggression, and dominance" },
+            { "label": "B", "text": "Emotional intelligence, sensitivity, and sacrifice for the family" },
+            { "label": "C", "text": "Independence, self-reliance, and individualism" },
+            { "label": "D", "text": "Dominance, control, and power over others" }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 4,
+          "question": "How has the speaker been practicing vulnerability, according to the talk?",
+          "options": [
+            { "label": "A", "text": "By avoiding conversations about his struggles and insecurities" },
+            { "label": "B", "text": "By posting about his accomplishments on social media" },
+            { "label": "C", "text": "By having open conversations with his guy friends about his struggles and insecurities" },
+            { "label": "D", "text": "By going on solo trips to foreign countries" }
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 5,
+          "question": "What is the problem with traditional masculine norms, according to the speaker?",
+          "options": [
+            { "label": "A", "text": "They promote emotional intelligence, sensitivity, and vulnerability" },
+            { "label": "B", "text": "They promote a narrow and limiting definition of masculinity that discourages emotional expression and vulnerability" },
+            { "label": "C", "text": "They promote aggression, violence, and dominance" },
+            { "label": "D", "text": "They promote a lack of accountability and responsibility" }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 6,
+          "question": "Why does the speaker think that only women are engaging with his content on social media, despite his efforts to reach more men?",
+          "options": [
+            { "label": "A", "text": "Men are not interested in discussing gender equality and vulnerability" },
+            { "label": "B", "text": "Women are more open to discussing gender equality and vulnerability" },
+            { "label": "C", "text": "Social media is not an effective platform for promoting gender equality" },
+            { "label": "D", "text": "The speaker's approach to promoting gender equality is flawed" }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 7,
+          "question": "How does the speaker challenge men to redefine what it means to be strong and brave?",
+          "options": [
+            { "label": "A", "text": "By embracing traditional masculine traits like aggression and dominance" },
+            { "label": "B", "text": "By embracing emotional intelligence, sensitivity, and vulnerability" },
+            { "label": "C", "text": "By embracing independence, self-reliance, and individualism" },
+            { "label": "D", "text": "By ignoring the need for change" }
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 8,
+          "question": "What does the speaker's experience of confronting his own biases and privileges as a man suggest about the process of promoting gender equality?",
+          "options": [
+            { "label": "A", "text": "It requires men to recognize and challenge their own biases and privileges" },
+            { "label": "B", "text": "It requires women to take on more leadership roles and responsibilities" },
+            { "label": "C", "text": "It requires a fundamental transformation of societal norms and institutions" },
+            { "label": "D", "text": "It requires men to become more aggressive and dominant" }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 9,
+          "question": "What does the passage from the Bahá'í writings suggest about the importance of gender equality?",
+          "options": [
+            { "label": "A", "text": "It is necessary for the advancement of humanity and the promotion of peace and justice" },
+            { "label": "B", "text": "It is necessary for the empowerment of women and the promotion of feminist ideals" },
+            { "label": "C", "text": "It is necessary for the promotion of traditional masculine traits and values" },
+            { "label": "D", "text": "It is necessary for the maintenance of social order and stability" }
+          ],
+          "correct_option": "A"
+        },
+        {
+          "id": 10,
+          "question": "What does the speaker's conclusion about teaching children to be good humans suggest about the role of education in promoting gender equality?",
+          "options": [
+            { "label": "A", "text": "It should focus on promoting traditional masculine traits and values" },
+            { "label": "B", "text": "It should focus on promoting emotional intelligence, sensitivity, and vulnerability" },
+            { "label": "C", "text": "It should focus on challenging societal norms and institutions" },
+            { "label": "D", "text": "It should focus on ignoring the need for change" }
+          ],
+          "correct_option": "B"
+        }
+      ]
+    }
+  ]
+}
