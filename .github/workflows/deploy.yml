@@ -36,4 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the built-in token
           publish_dir: ./public                      # Directory where Hugo outputs the site
-          publish_branch: gh-pages                   # Target branch for GitHub Pages
+          publish_branch: master                  # Target branch for GitHub Pages
