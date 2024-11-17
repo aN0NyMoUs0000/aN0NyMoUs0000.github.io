@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MCQGen Demo</title>
-    <link>http://localhost:2597/</link>
+    <link>http://localhost:3602/</link>
     <description>Recent content on MCQGen Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:2597/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:3602/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCQs Generator</title>
-      <link>http://localhost:2597/mcqs/</link>
+      <link>http://localhost:3602/mcqs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:2597/mcqs/</guid>
-      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xD;&#xA;  &lt;title&gt;MCQs Generator&lt;/title&gt;&#xD;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:2597/css/mcq-style.css&#34;&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;  &lt;div id=&#34;mcq-app&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;title-selection&#34;&gt;&#xD;&#xA;      &lt;label for=&#34;title-select&#34;&gt;Choose a transcript of title:&lt;/label&gt;&#xD;&#xA;      &lt;br&gt;&#xD;&#xA;      &lt;select id=&#34;title-select&#34;&gt;&#xD;&#xA;        &lt;option value=&#34;&#34; disabled selected&gt;Select a title&lt;/option&gt;&#xD;&#xA;      &lt;/select&gt;&#xD;&#xA;      &lt;button id=&#34;generate-btn&#34; onclick=&#34;generateMCQs()&#34;&gt;Generate&lt;/button&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;mcq-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;nav-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;script src=&#34;http://localhost:2597/js/mcq-interactive.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;</description>
+      <guid>http://localhost:3602/mcqs/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xD;&#xA;  &lt;title&gt;MCQs Generator&lt;/title&gt;&#xD;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:3602/css/mcq-style.css&#34;&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;  &lt;div id=&#34;mcq-app&#34;&gt;&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;title-selection&#34;&gt;&#xD;&#xA;      &lt;label for=&#34;title-select&#34;&gt;Choose a transcript of title:&lt;/label&gt;&#xD;&#xA;      &lt;br&gt;&#xD;&#xA;      &lt;select id=&#34;title-select&#34;&gt;&#xD;&#xA;        &lt;option value=&#34;&#34; disabled selected&gt;Select a title&lt;/option&gt;&#xD;&#xA;      &lt;/select&gt;&#xD;&#xA;      &lt;button id=&#34;generate-btn&#34; onclick=&#34;generateMCQs()&#34;&gt;Generate&lt;/button&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;mcq-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div id=&#34;nav-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &lt;script src=&#34;http://localhost:3602/js/mcq-interactive.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;</description>
     </item>
   </channel>
 </rss>
