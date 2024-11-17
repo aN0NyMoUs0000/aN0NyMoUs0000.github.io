@@ -6,7 +6,7 @@ theme = "PaperMod"
 [params]
   customCSS = ["/css/mcq-style.css"] # Add custom CSS here
   showToc = false
-  mode = "light"
+  mode = "dark"
 
 [menu]
   [[menu.main]]
