@@ -1,0 +1,39 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Change this to your default branch name (e.g., "main" or "master")
+  pull_request:  # This triggers the workflow on pull requests (optional)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"  # Use the latest version of Hugo
+          extended: true          # Use Hugo extended version for Sass/SCSS support
+
+      # Step 3: Install Hugo modules (if applicable)
+      - name: Install Hugo Modules
+        run: hugo mod get
+
+      # Step 4: Build the Hugo site
+      - name: Build the site
+        run: hugo --minify
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the built-in token
+          publish_dir: ./public                      # Directory where Hugo outputs the site
+          publish_branch: gh-pages                   # Target branch for GitHub Pages
