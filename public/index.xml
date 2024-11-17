@@ -18,7 +18,7 @@
   &lt;meta charset=&#34;UTF-8&#34;&gt;
   &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
   &lt;title&gt;MCQs Generator&lt;/title&gt;
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:14920//css/mcq-style.css&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:14920/public/css/mcq-style.css&#34;&gt;
 &lt;/head&gt;
 &lt;body&gt;
   &lt;div id=&#34;mcq-app&#34;&gt;
