@@ -12,11 +12,10 @@ async function loadTitles() {
     const data = await response.json();
 
     mcqData = data.titles; // Extract the 'titles' array from the JSON
+    console.log("Loaded mcqData:", mcqData); // Debug log for mcqData
 
-    // Render the dropdown menu for titles
     renderTitleSelection(mcqData);
 
-    // Initially hide the MCQ container
     document.getElementById("mcq-container").style.display = "none";
     document.getElementById("nav-container").style.display = "none";
   } catch (error) {
@@ -25,6 +24,7 @@ async function loadTitles() {
       "<p>Failed to load MCQ titles. Please try again later.</p>";
   }
 }
+
 
 // Render the dropdown menu for title selection
 function renderTitleSelection(titles) {
@@ -232,27 +232,71 @@ function highlightActiveNavigation(index) {
   });
 }
 
+function updateVideo(url) {
+  console.log("Updating video with URL:", url);
+  const videoContainer = document.getElementById("video-container");
+  const videoFrame = document.getElementById("video-frame");
+
+  if (url) {
+    videoFrame.src = url.replace("watch?v=", "embed/");
+    videoContainer.style.display = "block";
+  } else {
+    videoFrame.src = "";
+    videoContainer.style.display = "none";
+  }
+}
+
+function handleTitleSelection() {
+  const titleSelect = document.getElementById("title-select");
+  const selectedIndex = titleSelect.value;
+
+  console.log("Selected Index:", selectedIndex); // Debug log for selectedIndex
+
+  if (!selectedIndex) return;
+
+  selectedTitleData = mcqData[selectedIndex];
+  console.log("Selected Title Data:", selectedTitleData); // Debug log for selectedTitleData
+
+  currentQuestionIndex = 0;
+
+  // Update the video
+  if (selectedTitleData.url) {
+    console.log("Video URL:", selectedTitleData.url); // Debug log for URL
+    updateVideo(selectedTitleData.url);
+  } else {
+    console.error("No URL found for the selected title.");
+  }
+
+  document.getElementById("mcq-container").style.display = "block";
+  document.getElementById("nav-container").style.display = "flex";
+  renderMCQ(currentQuestionIndex);
+  renderNavigation(selectedTitleData.questions);
+}
+
 // Function to handle the "Generate" button click
 function generateMCQs() {
-    const titleSelect = document.getElementById("title-select");
-    const selectedIndex = titleSelect.value;
-  
-    // Check if a title is selected
-    if (!selectedIndex) {
-      alert("Please select a title first.");
-      return;
-    }
-  
-    // Store selected title's questions and reset question index
-    selectedTitleData = mcqData[selectedIndex];
-    currentQuestionIndex = 0;
-  
-    // Show the MCQ container and render the first question
-    document.getElementById("mcq-container").style.display = "block";
-    document.getElementById("nav-container").style.display = "flex";
-    renderMCQ(currentQuestionIndex);
-    renderNavigation(selectedTitleData.questions);
+  const titleSelect = document.getElementById("title-select");
+  const selectedIndex = titleSelect.value;
+
+  // Check if a title is selected
+  if (!selectedIndex) {
+    alert("Please select a title first.");
+    return;
   }
+
+  // Store selected title's questions and reset question index
+  selectedTitleData = mcqData[selectedIndex];
+  currentQuestionIndex = 0;
+
+  // Update video based on the selected title
+  updateVideo(selectedTitleData.url);
+
+  // Show the MCQ container and render the first question
+  document.getElementById("mcq-container").style.display = "block";
+  document.getElementById("nav-container").style.display = "flex";
+  renderMCQ(currentQuestionIndex);
+  renderNavigation(selectedTitleData.questions);
+}
   
 
 // Initialize on page load

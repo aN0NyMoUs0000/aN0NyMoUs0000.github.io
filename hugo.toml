@@ -1,4 +1,5 @@
 baseURL = "https://aN0NyMoUs0000.github.io/"
+# baseURL = "http://localhost:11038/"
 languageCode = "en-us"
 title = "MCQGen Demo"
 theme = "PaperMod"
