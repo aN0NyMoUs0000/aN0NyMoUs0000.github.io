@@ -1,52 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>MCQGen Demo</title>
-    <link>http://localhost:5562/</link>
-    <description>Recent content on MCQGen Demo</description>
-    <generator>Hugo -- 0.138.0</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:5562/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MCQs Generator</title>
-      <link>http://localhost:5562/mcqs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5562/mcqs/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-  &lt;meta charset=&#34;UTF-8&#34;&gt;
-  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-  &lt;title&gt;MCQs Generator&lt;/title&gt;
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:5562/css/mcq-style.css&#34;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;div id=&#34;mcq-app&#34;&gt;
-    
-    &lt;div id=&#34;title-selection&#34;&gt;
-      &lt;label for=&#34;title-select&#34;&gt;Choose a transcript of title:&lt;/label&gt;
-      &lt;br&gt;
-      &lt;select id=&#34;title-select&#34;&gt;
-        &lt;option value=&#34;&#34; disabled selected&gt;Select a title&lt;/option&gt;
-      &lt;/select&gt;
-      &lt;button id=&#34;generate-btn&#34; onclick=&#34;generateMCQs()&#34;&gt;Generate&lt;/button&gt;
-    &lt;/div&gt;
-
-    
-    &lt;div id=&#34;video-container&#34; style=&#34;display: none;&#34;&gt;
-      &lt;iframe id=&#34;video-frame&#34; width=&#34;560&#34; height=&#34;315&#34; src=&#34;&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-    
-    &lt;div id=&#34;mcq-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
-
-    
-    &lt;div id=&#34;nav-container&#34; style=&#34;display: none;&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;script src=&#34;http://localhost:5562/js/mcq-interactive.js&#34;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>MCQGen Demo</title><link>https://aN0NyMoUs0000.github.io/</link><description>Recent content on MCQGen Demo</description><generator>Hugo -- 0.138.0</generator><language>en-us</language><atom:link href="https://aN0NyMoUs0000.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MCQs Generator</title><link>https://aN0NyMoUs0000.github.io/mcqs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aN0NyMoUs0000.github.io/mcqs/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+&lt;title>MCQs Generator&lt;/title>
+&lt;link rel="stylesheet" href="https://aN0NyMoUs0000.github.io/css/mcq-style.css">
+&lt;/head>
+&lt;body>
+&lt;div id="mcq-app">
+&lt;div id="title-selection">
+&lt;label for="title-select">Choose a transcript of title:&lt;/label>
+&lt;br>
+&lt;select id="title-select">
+&lt;option value="" disabled selected>Select a title&lt;/option>
+&lt;/select>
+&lt;button id="generate-btn" onclick="generateMCQs()">Generate&lt;/button>
+&lt;/div>
+&lt;div id="video-container" style="display: none;">
+&lt;iframe id="video-frame" width="560" height="315" src="" frameborder="0" allowfullscreen>&lt;/iframe>
+&lt;/div>
+&lt;div id="mcq-container" style="display: none;">&lt;/div>
+&lt;div id="nav-container" style="display: none;">&lt;/div>
+&lt;/div>
+&lt;script src="https://aN0NyMoUs0000.github.io/js/mcq-interactive.js">&lt;/script>
+&lt;/body>
+&lt;/html></description></item></channel></rss>

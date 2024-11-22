@@ -16,6 +16,9 @@
 &lt;/select>
 &lt;button id="generate-btn" onclick="generateMCQs()">Generate&lt;/button>
 &lt;/div>
+&lt;div id="video-container" style="display: none;">
+&lt;iframe id="video-frame" width="560" height="315" src="" frameborder="0" allowfullscreen>&lt;/iframe>
+&lt;/div>
 &lt;div id="mcq-container" style="display: none;">&lt;/div>
 &lt;div id="nav-container" style="display: none;">&lt;/div>
 &lt;/div>
