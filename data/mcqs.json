@@ -118,117 +118,234 @@
       ]
     },
     {
-      "title": "Why I'm done trying to be \"man enough\" - Justin Baldoni",
-      "category": "Psychology",
-      "url": "https://www.youtube.com/watch?v=EFcftfqpxK4",
+      "title": "The rights you might not realize you have - Shannon Odell",
+      "category": "Science & Technology",
+      "url": "https://www.youtube.com/watch?v=sTW3dvuDmBE",
       "questions": [
         {
           "id": 1,
-          "question": "What is the speaker's most well-known role as an actor, which he mentions in the talk?",
+          "question": "What is the primary reason for young plaintiffs suing their governments around the world?",
           "options": [
-            { "label": "A", "text": "Rafael" },
-            { "label": "B", "text": "Male Escort #1" },
-            { "label": "C", "text": "Shirtless Medical Student" },
-            { "label": "D", "text": "Shirtless Steroid-Using Con Man" }
+            {"label": "A", "text": "To increase funding for environmental policies"},
+            {"label": "B", "text": "To promote sustainable agriculture practices"},
+            {"label": "C", "text": "To hold governments accountable for inaction on tackling climate change"},
+            {"label": "D", "text": "To reduce taxes on environmental policies"}
           ],
-          "correct_option": "A"
+          "correct_option": "C"
         },
         {
           "id": 2,
-          "question": "According to the speaker, what is the primary issue with the traditional definition of masculinity that has been passed down to men from generation to generation?",
+          "question": "What is the name of the international document that outlines human rights, adopted by the United Nations in 1948?",
           "options": [
-            { "label": "A", "text": "It emphasizes the importance of emotional intelligence and sensitivity." },
-            { "label": "B", "text": "It promotes a narrow and limiting definition of masculinity that discourages vulnerability and emotional expression." },
-            { "label": "C", "text": "It encourages men to be aggressive and dominant in their relationships." },
-            { "label": "D", "text": "It fails to recognize the importance of strength and bravery in men." }
+            {"label": "A", "text": "Universal Declaration of Environmental Rights"},
+            {"label": "B", "text": "Universal Declaration of Human Rights (UDHR)"},
+            {"label": "C", "text": "International Treaty on Climate Change"},
+            {"label": "D", "text": "Global Pact on Sustainable Development"}
           ],
           "correct_option": "B"
         },
         {
           "id": 3,
-          "question": "What values did the speaker's father teach him about being a man, according to the talk?",
+          "question": "According to human rights advocates, what is the connection between human rights and the environment?",
           "options": [
-            { "label": "A", "text": "Traditional masculine traits like strength, aggression, and dominance" },
-            { "label": "B", "text": "Emotional intelligence, sensitivity, and sacrifice for the family" },
-            { "label": "C", "text": "Independence, self-reliance, and individualism" },
-            { "label": "D", "text": "Dominance, control, and power over others" }
+            {"label": "A", "text": "Human rights are unrelated to environmental issues"},
+            {"label": "B", "text": "Environmental protection is a secondary concern to human rights"},
+            {"label": "C", "text": "The principles of the UDHR depend on access to healthy ecosystems"},
+            {"label": "D", "text": "Human rights only apply to social and economic issues"}
           ],
-          "correct_option": "B"
+          "correct_option": "C"
         },
         {
           "id": 4,
-          "question": "How has the speaker been practicing vulnerability, according to the talk?",
+          "question": "What is the estimated number of countries and jurisdictions that have enshrined the right to a healthy environment into national legislation?",
           "options": [
-            { "label": "A", "text": "By avoiding conversations about his struggles and insecurities" },
-            { "label": "B", "text": "By posting about his accomplishments on social media" },
-            { "label": "C", "text": "By having open conversations with his guy friends about his struggles and insecurities" },
-            { "label": "D", "text": "By going on solo trips to foreign countries" }
+            {"label": "A", "text": "Over 50"},
+            {"label": "B", "text": "Over 100"},
+            {"label": "C", "text": "Over 150"},
+            {"label": "D", "text": "Over 200"}
           ],
           "correct_option": "C"
         },
         {
           "id": 5,
-          "question": "What is the problem with traditional masculine norms, according to the speaker?",
+          "question": "What was the outcome of the Colombian Supreme Court case in 2018, filed by young plaintiffs?",
           "options": [
-            { "label": "A", "text": "They promote emotional intelligence, sensitivity, and vulnerability" },
-            { "label": "B", "text": "They promote a narrow and limiting definition of masculinity that discourages emotional expression and vulnerability" },
-            { "label": "C", "text": "They promote aggression, violence, and dominance" },
-            { "label": "D", "text": "They promote a lack of accountability and responsibility" }
+            {"label": "A", "text": "The court ruled in favor of the government, dismissing the case"},
+            {"label": "B", "text": "The court ordered the government to pay compensation to the plaintiffs"},
+            {"label": "C", "text": "The court delayed the decision, pending further review"},
+            {"label": "D", "text": "The court ruled in favor of the plaintiffs, finding the government was legally obliged to reduce deforestation and greenhouse gas emissions"}
+          ],
+          "correct_option": "D"
+        },
+        {
+          "id": 6,
+          "question": "What is the predicted consequence of mass extinction due to climate change, according to the transcript?",
+          "options": [
+            {"label": "A", "text": "A 10% loss of global biodiversity by 2050"},
+            {"label": "B", "text": "A 25% loss of global biodiversity by 2100"},
+            {"label": "C", "text": "A 50% loss of global biodiversity by 2150"},
+            {"label": "D", "text": "A 75% loss of global biodiversity by 2200"}
           ],
           "correct_option": "B"
         },
         {
-          "id": 6,
-          "question": "Why does the speaker think that only women are engaging with his content on social media, despite his efforts to reach more men?",
+          "id": 7,
+          "question": "What is the significance of the UN General Assembly's recognition of the right to a clean, healthy, and sustainable environment in 2022?",
           "options": [
-            { "label": "A", "text": "Men are not interested in discussing gender equality and vulnerability" },
-            { "label": "B", "text": "Women are more open to discussing gender equality and vulnerability" },
-            { "label": "C", "text": "Social media is not an effective platform for promoting gender equality" },
-            { "label": "D", "text": "The speaker's approach to promoting gender equality is flawed" }
+            {"label": "A", "text": "It marks a major setback for environmental protection efforts"},
+            {"label": "B", "text": "It is a non-binding resolution with no impact on national policies"},
+            {"label": "C", "text": "It demonstrates a growing global commitment to align human rights with environmental protection"},
+            {"label": "D", "text": "It is a redundant recognition, as the right is already widely accepted"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 8,
+          "question": "How many human rights-based environmental cases have been filed across the globe, as of the summer of 2023?",
+          "options": [
+            {"label": "A", "text": "Over 100"},
+            {"label": "B", "text": "Over 500"},
+            {"label": "C", "text": "Over 1,000"},
+            {"label": "D", "text": "Over 2,000"}
+          ],
+          "correct_option": "D"
+        },
+        {
+          "id": 9,
+          "question": "What is the ultimate goal of the court cases and global efforts to recognize the right to a healthy environment, according to the transcript?",
+          "options": [
+            {"label": "A", "text": "To impose stricter regulations on industries"},
+            {"label": "B", "text": "To provide financial compensation to affected communities"},
+            {"label": "C", "text": "To give future generations a better chance to breathe clean air and live in a world with preserved natural ecosystems"},
+            {"label": "D", "text": "To promote sustainable economic growth"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 10,
+          "question": "What action can a government take to address the issue of frequent heatwaves, longer droughts, and more destructive wildfires due to climate change, based on the concept of human rights?",
+          "options": [
+            {"label": "A", "text": "Increase funding for disaster relief efforts"},
+            {"label": "B", "text": "Implement policies to reduce greenhouse gas emissions and protect the right to a healthy environment"},
+            {"label": "C", "text": "Provide financial compensation to affected communities"},
+            {"label": "D", "text": "Establish a national emergency response team"}
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "How can groups make good decisions? - Mariano Sigman and Dan Ariely",
+      "category": "Literature & Language",
+      "url": "https://www.youtube.com/watch?v=JrRRvqgYgT0",
+      "questions": [
+        {
+          "id": 1,
+          "question": "According to research, what is essential for crowds to make wise decisions?",
+          "options": [
+            {"label": "A", "text": "Peer pressure and social media influence"},
+            {"label": "B", "text": "Independent thinking"},
+            {"label": "C", "text": "Simple conversations and debates"},
+            {"label": "D", "text": "Publicity and large group discussions"}
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 2,
+          "question": "What was the outcome of the experiment conducted in Buenos Aires, Argentina, with over 10,000 participants?",
+          "options": [
+            {"label": "A", "text": "Averaging individual opinions before debate was more accurate than averaging group answers after debate"},
+            {"label": "B", "text": "Averaging group answers after debate was more accurate than averaging individual opinions before debate"},
+            {"label": "C", "text": "There was no significant difference between averaging individual opinions and group answers"},
+            {"label": "D", "text": "The experiment was inconclusive"}
+          ],
+          "correct_option": "B"
+        },
+        {
+          "id": 3,
+          "question": "What type of issues did the experiment in Vancouver, Canada, focus on?",
+          "options": [
+            {"label": "A", "text": "Simple right-or-wrong answers"},
+            {"label": "B", "text": "Social and political issues"},
+            {"label": "C", "text": "Moral dilemmas"},
+            {"label": "D", "text": "Both B and C"}
+          ],
+          "correct_option": "D"
+        },
+        {
+          "id": 4,
+          "question": "In the experiment, what was the role of \"high-confident grays\" in reaching a consensus?",
+          "options": [
+            {"label": "A", "text": "They hindered the group from reaching a consensus"},
+            {"label": "B", "text": "They had no significant impact on the group's decision"},
+            {"label": "C", "text": "They helped the group reach a consensus by understanding the merits of both arguments"},
+            {"label": "D", "text": "They dominated the discussion and imposed their opinions"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 5,
+          "question": "How do groups typically reach a consensus, according to the experiment's findings?",
+          "options": [
+            {"label": "A", "text": "By taking a simple average of all answers"},
+            {"label": "B", "text": "By weighing the strength of each vote based on confidence"},
+            {"label": "C", "text": "By implementing a \"robust average\" that ignores outliers"},
+            {"label": "D", "text": "By following the opinion of the most confident group member"}
+          ],
+          "correct_option": "C"
+        },
+        {
+          "id": 6,
+          "question": "What are the two essential components of good collective decisions, according to the speaker?",
+          "options": [
+            {"label": "A", "text": "Deliberation and diversity of opinions"},
+            {"label": "B", "text": "Voting and consensus"},
+            {"label": "C", "text": "Independent thinking and peer pressure"},
+            {"label": "D", "text": "Social media influence and publicity"}
           ],
           "correct_option": "A"
         },
         {
           "id": 7,
-          "question": "How does the speaker challenge men to redefine what it means to be strong and brave?",
+          "question": "What is the potential benefit of forming small groups to make collective decisions?",
           "options": [
-            { "label": "A", "text": "By embracing traditional masculine traits like aggression and dominance" },
-            { "label": "B", "text": "By embracing emotional intelligence, sensitivity, and vulnerability" },
-            { "label": "C", "text": "By embracing independence, self-reliance, and individualism" },
-            { "label": "D", "text": "By ignoring the need for change" }
+            {"label": "A", "text": "It ensures everyone gets to express their voice, but may not foster thoughtful debates"},
+            {"label": "B", "text": "It balances diversity of opinions and deliberation"},
+            {"label": "C", "text": "It leads to more polarized opinions"},
+            {"label": "D", "text": "It is only effective for simple right-or-wrong answers"}
           ],
           "correct_option": "B"
         },
         {
           "id": 8,
-          "question": "What does the speaker's experience of confronting his own biases and privileges as a man suggest about the process of promoting gender equality?",
+          "question": "According to the speaker, what is the current limitation of the typical voting system?",
           "options": [
-            { "label": "A", "text": "It requires men to recognize and challenge their own biases and privileges" },
-            { "label": "B", "text": "It requires women to take on more leadership roles and responsibilities" },
-            { "label": "C", "text": "It requires a fundamental transformation of societal norms and institutions" },
-            { "label": "D", "text": "It requires men to become more aggressive and dominant" }
+            {"label": "A", "text": "It does not ensure diversity of opinions"},
+            {"label": "B", "text": "It does not allow for thoughtful debates"},
+            {"label": "C", "text": "It is not effective for complex problems"},
+            {"label": "D", "text": "It is not representative of the majority's opinion"}
           ],
-          "correct_option": "A"
+          "correct_option": "B"
         },
         {
           "id": 9,
-          "question": "What does the passage from the Bahá'í writings suggest about the importance of gender equality?",
+          "question": "What is the potential outcome of using science to understand how we interact and make decisions?",
           "options": [
-            { "label": "A", "text": "It is necessary for the advancement of humanity and the promotion of peace and justice" },
-            { "label": "B", "text": "It is necessary for the empowerment of women and the promotion of feminist ideals" },
-            { "label": "C", "text": "It is necessary for the promotion of traditional masculine traits and values" },
-            { "label": "D", "text": "It is necessary for the maintenance of social order and stability" }
+            {"label": "A", "text": "It will lead to more polarization and conflict"},
+            {"label": "B", "text": "It will spark interesting new ways to construct a better democracy"},
+            {"label": "C", "text": "It will have no significant impact on collective decision-making"},
+            {"label": "D", "text": "It will only be effective for simple right-or-wrong answers"}
           ],
-          "correct_option": "A"
+          "correct_option": "B"
         },
         {
           "id": 10,
-          "question": "What does the speaker's conclusion about teaching children to be good humans suggest about the role of education in promoting gender equality?",
+          "question": "What was the speaker's conclusion about the experiment's findings and their potential application?",
           "options": [
-            { "label": "A", "text": "It should focus on promoting traditional masculine traits and values" },
-            { "label": "B", "text": "It should focus on promoting emotional intelligence, sensitivity, and vulnerability" },
-            { "label": "C", "text": "It should focus on challenging societal norms and institutions" },
-            { "label": "D", "text": "It should focus on ignoring the need for change" }
+            {"label": "A", "text": "The experiment's findings are conclusive and can be directly applied to real-world scenarios"},
+            {"label": "B", "text": "The experiment's findings are promising, but more research is needed to understand their implications"},
+            {"label": "C", "text": "The experiment's findings are inconclusive and have no practical application"},
+            {"label": "D", "text": "The experiment's findings are only relevant to simple right-or-wrong answers"}
           ],
           "correct_option": "B"
         }
